@@ -1,0 +1,25 @@
+-> getline(cin,s) vs cin // string s : cin ignores all space or enter before value but getline() doesn't ignore it; this is called buffer, to ignore buffer for getline(), use cin.ignore()
+
+-> double a=5, b=2; int c= a/b // ans = 2 (calc=double, assign = int)
+
+-> long long c = a* 1ll * b // calc=long long for 1ll
+
+-> should avoid adding characters to string by concat, rather use str1.push_back(str2[i])  
+
+-> local array size limit : 10^5 order; global : 10^7 , but global array must be type const
+
+-> function takes pass by value(copy of var) as param; int incr(int &n): pass by reference (pass by value, pass by reference)
+
+-> arrays are exception cause they always are passed to function by reference; try to avoid 2d array in func cause rule: (int arr[][20])
+
+-> inbuilt func: max(), min(), swap()
+
+-> recursion call is stored in stack
+
+-> run time error - because of memory dismanagement
+
+-> 10^7 iteration performed in 1 sec
+
+-> sum of N over all test cases - ignores t;
+
+-> print answer modulo m: 
