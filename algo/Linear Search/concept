@@ -1,0 +1,5 @@
+-> Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set. It is the easiest searching algorithm
+
+-> Linear search can be used irrespective of whether the array is sorted or not. It can be used on arrays of any data type
+
+-> Linear search has a time complexity of O(n), which in turn makes it slow for large datasets
