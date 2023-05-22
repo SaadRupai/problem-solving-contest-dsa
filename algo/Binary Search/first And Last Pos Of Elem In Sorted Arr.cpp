@@ -7,7 +7,7 @@ using namespace std;
 int firstOccur(int arr[], int size, int key){
 	int start = 0;
 	int end = size-1;
-	int mid = start+(end-start)/2;	// to avoid int overflow
+	int mid = start+(end-start)/2;	// to avoid integer overflow
 	int ans = -1;
 	
 	while(start <= end){
