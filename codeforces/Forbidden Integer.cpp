@@ -11,7 +11,7 @@ int main(){
             cout<<"YES"<<endl;
             cout<<n<<endl;
             for(int i=1; i<=n; i++){
-                cout<<'1'<<' ';
+                cout<<1<<" ";
             }
             cout<<endl;
         }
@@ -22,10 +22,12 @@ int main(){
             cout<<"YES"<<endl;
             cout<<n/2<<endl;
             for(int i=1; i<=n/2; i++){
-                cout<<'2'<<' ';
+                cout<<2<<" ";
             }
-            cout<<endl;
+            cout<<2+(n%2)<<endl;
         }
     }
     return 0;
 }
+
+ 
